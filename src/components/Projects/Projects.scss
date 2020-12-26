@@ -1,0 +1,361 @@
+.projects__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: rgb(22, 22, 22);
+    border-bottom: 1px solid #fff;
+
+    & h1 {
+        margin: 100px 0 100px 0;
+        color:  rgb(14, 17, 206);
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    & .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 83%;
+        height: auto;
+
+        & .covid19 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+            margin-bottom: 50px;
+
+
+            & .text {
+                
+                & p {
+                    color: rgb(148, 148, 148);
+                    width: 85%;
+                    line-height: 32px;
+                    text-align: justify;
+                    text-indent: 5%;
+                    font-size: 20px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+
+                    & span {
+                        color:  rgb(14, 17, 206);
+                    }
+                }
+
+                & .left--btn {
+                    width: 150px;
+                    height: 40px;
+                    border: 2px solid #0d69e0;
+                    background-color: #0d69e0;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    outline: none;
+                    cursor: pointer;
+                    margin-top: 40px;
+                    transition: all 0.25s ease-in-out;
+                    margin: 40px 20px 0 10px;
+
+                    &:hover {
+                        background-color: #044aa7;
+                    }
+                    &:active {
+                        transform: scale(.96);
+                    }
+                }
+
+                & .right--btn {
+                    width: 150px;
+                    height: 40px;
+                    border: 2px solid #0d69e0;
+                    background-color: #0d69e0;
+                    color: #fff;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    outline: none;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #044aa7;
+                    }
+                    &:active {
+                        transform: scale(.96);
+                    }
+                }
+            }
+
+            & img {
+                width: 480px;
+                height: 350px;
+                border-radius: 10px;
+            }
+        }
+
+        & .bestshop {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+            margin-bottom: 100px;
+
+            & img {
+                width: 480px;
+                height: 350px;
+                border-radius: 10px;
+            }
+
+            & .text {
+               
+          
+                & p {
+                    color: rgb(148, 148, 148);
+                    width: 90%;
+                    line-height: 32px;
+                    text-align: justify;
+                    text-indent: 5%;
+                    font-size: 20px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin: 20px 0 0 50px;
+                }
+
+                & .left--btn {
+                    width: 150px;
+                    height: 40px;
+                    border: 2px solid #0d69e0;
+                    background-color: #0d69e0;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    outline: none;
+                    cursor: pointer;
+                    margin-top: 40px;
+                    margin: 40px 20px 0 60px;
+                    transition: all 0.25s ease-in-out;
+
+                    &:hover {
+                        background-color: #044aa7;
+                    }
+                    &:active {
+                        transform: scale(.96);
+                    }
+                }
+
+                & .right--btn {
+                    width: 150px;
+                    height: 40px;
+                    border: 2px solid #0d69e0;
+                    background-color: #0d69e0;
+                    color: #fff;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    outline: none;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #044aa7;
+                    }
+                    &:active {
+                        transform: scale(.96);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .projects__container {
+
+        & h1 {
+            margin: 30px 0 30px 0;
+        }
+    }
+
+    .projects__container .box .covid19 {
+        display: flex;
+        flex-wrap: wrap;
+
+        & .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            p {
+                font-size: 16px;
+                text-align: center;
+                width: 100%;
+            }
+        }  
+    }
+    .projects__container .box .covid19 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    & .box .covid19 .btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+
+        & .left--btn {
+            margin: 0 10px 10px 0;
+        }
+
+        & .right--btn {
+            margin: 0 10px 10px 0;
+        }
+    }
+
+    .projects__container .box .bestshop {
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects__container .box .bestshop img {
+        width: 100%;
+        margin-top: 20px;
+    }   
+
+    .projects__container .box .bestshop .text p {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+
+    .box .bestshop .btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+
+        & .left--btn {
+            margin: 0 20px 10px 10px;
+        }
+
+        & .right--btn {
+            margin: 0 20px 10px 10px;
+        }
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .projects__container {
+
+        & h1 {
+            margin: 30px 0 25px 0;
+            text-align: center;
+        }
+
+        & .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            & .covid19 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-self: center;
+                align-self: center;
+
+            & .text {
+                text-align: center;
+                margin-bottom: 40px;
+
+                p {
+                    font-size: 20px;
+                    text-align: center;
+                    width: 100%;
+                    } 
+
+                    & .btn {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin: 30px 0;
+
+                        & .left--btn {
+                            margin-top: 0;
+                        }
+                    }
+                }
+
+                & img {
+                    width: 100%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            & .bestshop {
+                display: flex;
+                flex-wrap: wrap;
+                justify-self: center;
+                align-self: center;
+
+                & img {
+                    width: 100%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                & .text {
+                    text-align: center;
+
+                    & p {
+                        width: 80%;
+                    }
+
+                    & .btn {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin: 30px 0;
+
+                        & .left--btn {
+                        margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .projects__container .box .bestshop .text {
+
+        & p {
+            margin: 20px 0 0 20px;
+        }
+
+        & .btn {
+
+            & .left--btn {
+                margin: 20px 20px 0 25px;
+            }
+        }
+    }
+}

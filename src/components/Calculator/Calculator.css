@@ -1,0 +1,180 @@
+.caluculator__container {
+  width: 100%;
+  height: 300px;
+  background-color: #1085c9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid #fff;
+}
+
+.caluculator__container .infoBox {
+  width: 80%;
+  height: 50%;
+  border-style: double;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.caluculator__container .infoBox .projectsDone {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.caluculator__container .infoBox .projectsDone img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.caluculator__container .infoBox .projectsDone p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.caluculator__container .infoBox .projectsDone h6 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+}
+
+.caluculator__container .infoBox .coffe {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.caluculator__container .infoBox .coffe img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.caluculator__container .infoBox .coffe p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.caluculator__container .infoBox .coffe h6 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+}
+
+.caluculator__container .infoBox .hoursWork {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.caluculator__container .infoBox .hoursWork img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.caluculator__container .infoBox .hoursWork p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.caluculator__container .infoBox .hoursWork h6 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+}
+
+.caluculator__container .infoBox .projectsInProgres {
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.caluculator__container .infoBox .projectsInProgres img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.caluculator__container .infoBox .projectsInProgres p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.caluculator__container .infoBox .projectsInProgres h6 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+}
+/*# sourceMappingURL=Calculator.css.map */

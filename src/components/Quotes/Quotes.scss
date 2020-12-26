@@ -1,0 +1,125 @@
+.quotes__container {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(16, 133, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+
+    .background {
+        width: 220px;
+        height: 250px;
+        border: 10px solid #000;
+        border-style: double;
+        border-image: none;
+        position: absolute;
+    }
+
+
+    .text {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        p {
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 20px 0;
+            color: #fff;
+            font-family: "Vollkorn", serif;
+            margin-bottom: 20px;
+        }
+
+        p:nth-child(1)::before {
+            content: "\201c";
+            font-size: 76px;
+        }
+
+        p:nth-child(1)::after {
+            content: "\201d";
+            font-size: 76px;
+        }
+
+        p:nth-child(2)::before {
+            content: "\2014\0020";
+        }
+
+        p:nth-child(2)::after {
+            content: "\2014\0020";
+        }
+    }
+}
+    
+    
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .quotes__container .background {
+        width: 180px;
+        height: 230px;
+    }
+    
+    .quotes__container .text{
+
+        p {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        p:nth-child(1)::before {
+            content: "\201c";
+            font-size: 26px;
+        }
+
+        p:nth-child(1)::after {
+            content: "\201d";
+            font-size: 26px;
+        }
+
+        p:nth-child(2)::before {
+            content: "\2014\0020";
+        }
+
+        p:nth-child(2)::after {
+            content: "\2014\0020";
+        }
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    
+    .quotes__container .background {
+        width: 180px;
+        height: 230px;
+    }
+    
+    .quotes__container .text{
+
+        p {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        p:nth-child(1)::before {
+            content: "\201c";
+            font-size: 26px;
+        }
+
+        p:nth-child(1)::after {
+            content: "\201d";
+            font-size: 26px;
+        }
+
+        p:nth-child(2)::before {
+            content: "\2014\0020";
+        }
+
+        p:nth-child(2)::after {
+            content: "\2014\0020";
+        }
+    }
+}

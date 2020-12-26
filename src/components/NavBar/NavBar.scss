@@ -1,0 +1,77 @@
+.app__navbar {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    align-items: center;
+    background-color: #000;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    border-bottom: 1px solid #fff;
+
+
+    &--logo {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        & img {
+            width: 50px;
+            height: 50px;
+        }
+
+        & h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 26px;
+            margin-left: 10px;
+            color: #0D69E0;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .app__navbar {
+        width: 100vw;
+        padding: 0 0 0 20px;
+        position: fixed;
+
+        &--logo {
+
+            & h1 {
+                display: none;
+            }
+
+            & img {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .app__navbar {
+        width: 100vw;
+        padding: 10px 0 10px 20px;
+        position: fixed;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .app__navbar {
+        width: 100%;
+        padding: 10px 0 10px 5px;
+        position: fixed;
+    }
+}
+
+
+

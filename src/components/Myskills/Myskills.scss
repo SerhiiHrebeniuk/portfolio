@@ -1,0 +1,171 @@
+.app__myskills {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+
+    & .app__title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 20px;
+
+        & h1 {
+            color:  rgb(14, 17, 206);
+            text-transform: uppercase;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 26px;
+        }
+    }
+
+    & .app__box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+        & h1 {
+            text-align: center;
+            color: rgb(148, 148, 148);
+            font-family: Georgia, "Times New Roman", Times, serif;
+            padding: 0 0 50px 0;
+        }
+
+        &--skills {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 0 50px 0;
+
+            &--use {
+                width: 500px;
+                height: 470px;
+                border-radius: 10px;
+                box-shadow: 3px 10px 20px rgb(0, 0, 205);
+
+                & h2 {
+                    color:  rgb(14, 17, 206);
+                    text-align: center;
+                    padding: 30px 0;
+                }
+
+                &  ul {
+                    padding: 0 0 0 50px;
+                }
+
+                & ul li {
+                    color: rgb(148, 148, 148);
+                    font-size: 24px;
+                    padding: 0 0 15px 8px;
+                    letter-spacing: 1px;
+                    list-style-type: none;
+
+                    & img {
+                        width: 40px;
+                        height: 20px;
+                        padding: 0 15px 0 0;
+                    }
+                }
+            }
+    
+            &--learn {
+                width: 500px;
+                height: 470px;
+                border-radius: 10px;
+                box-shadow: 3px 10px 20px rgb(0, 0, 205);
+
+                & h2 {
+                    color:  rgb(14, 17, 206);
+                    text-align: center;
+                    padding: 30px 0;
+                }
+
+                &  ul {
+                    padding: 0 0 0 50px;
+                }
+
+                & ul li {
+                    color: rgb(148, 148, 148);
+                    font-size: 24px;
+                    padding: 0 0 15px 8px;
+                    letter-spacing: 1px;
+                    list-style-type: none;
+
+                    & img {
+                        width: 40px;
+                        height: 20px;
+                        padding: 0 15px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .app__myskills .app__box {
+        & h1 {
+            font-size: 20px;
+            padding: 0 10px 10px 10px;
+        }
+    }
+
+    .app__myskills .app__box--skills {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 15px 0 15px;
+
+        &--use  {
+            margin-bottom: 40px;
+
+           & ul li{
+                font-size: 18px;
+            }
+        }
+
+        &--learn {
+            margin-bottom: 40px;
+
+            & ul li{
+                font-size: 18px;
+            }
+        }
+        
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .app__myskills .app__box {
+        & h1 {
+            font-size: 26px;
+            padding: 0 10px 40px 10px;
+        }
+    }
+
+    .app__myskills .app__box--skills {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 15px 0 15px;
+
+        &--use  {
+            margin-bottom: 40px;
+
+           & ul li{
+                font-size: 18px;
+            }
+        }
+
+        &--learn {
+            margin-bottom: 40px;
+
+            & ul li{
+                font-size: 18px;
+            }
+        }
+        
+    }
+}

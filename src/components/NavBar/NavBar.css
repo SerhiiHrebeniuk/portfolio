@@ -1,0 +1,81 @@
+.app__navbar {
+  width: 100%;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px 0 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  border-bottom: 1px solid #fff;
+}
+
+.app__navbar--logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app__navbar--logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.app__navbar--logo h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 26px;
+  margin-left: 10px;
+  color: #0D69E0;
+  letter-spacing: 1.5px;
+}
+
+.app__navbar--links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 35%;
+}
+
+.app__navbar--links li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-image: linear-gradient(transparent calc(100% - 1px), #0d69e0 1px);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  display: inline;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.app__navbar--links li a:hover {
+  text-decoration: none;
+  color: #0D69E0;
+  background-size: 100%;
+}
+/*# sourceMappingURL=NavBar.css.map */

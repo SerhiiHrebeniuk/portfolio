@@ -1,0 +1,113 @@
+.contact__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+    border-bottom: 1px solid #fff;
+
+    & h1 {
+        color:  rgb(14, 17, 206);
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    & .contact__form {
+        background-color: rgb(22, 22, 22);
+        box-shadow: 3px 10px 20px rgb(0, 0, 205);
+        border-radius: 10px;
+        width: 50%;
+        height: auto;
+        margin-bottom: 70px;
+        transform: translateX(50%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        & .form__inputs {
+            width: 100%;
+            height: auto;
+            padding: 8px 20px;
+
+            & label {
+                font-size: 20px;
+                padding: 0 20px;
+                color: #fff;
+            }
+
+            & input {
+                width: 90%;
+                height: 2.5rem;
+                margin-left: 20px;
+                margin-top: 5px;
+                border-radius: 10px;
+                border: 3px solid rgb(14, 17, 206);
+                outline: none;
+                color: rgb(148, 148, 148);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: rgb(22, 22, 22);
+
+                & input:active {
+                    box-shadow: 3px 10px 20px #0000cd;
+                }
+            }
+
+            & textarea {
+                width: 90%;
+                height: 7rem;
+                margin-left: 20px;
+                margin-top: 15px;
+                border-radius: 10px;
+                border: 3px solid rgb(14, 17, 206);
+                outline: none;
+                color: rgb(148, 148, 148);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background-color: rgb(22, 22, 22);
+                padding: 10px 0;
+            }
+
+            p {
+                color: red;
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+        }
+
+        & button {
+            width: 30%;
+            height: 3.5rem;
+            border: 2px solid #0d69e0;
+            background-color: #0d69e0;
+            margin: 20px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: #fff;
+                background-color: #044aa7;
+                border: 1px solid #0d69e0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .contact__container .contact__form {
+        width: 90%;
+        transform: none;
+        margin: 0 10px 20px 15px;
+    }
+    .contact__container .contact__form .form__inputs label {
+        font-size: 16px;
+    }
+}

@@ -27,7 +27,7 @@ function Myskills() {
                     <h1>Skills</h1>
                 </div>
                 <div className="app__box">
-                    <h1>These are the technologies that I use in my work.</h1>
+                    <h1>Here are the technologies I use.</h1>
                     <div className="app__box--skills">
                         <div className="app__box--skills--use">
                             <h2>My tech stack</h2>
